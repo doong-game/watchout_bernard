@@ -209,7 +209,6 @@
       }
       hasFlag = !hasFlag;
     }
-    body oncontextmenu="return false;"
     gameWin(INIT.squareLen);
   }
 
