@@ -184,7 +184,6 @@
 
   function rightClickEvent (e, tdIndex) {
     e.preventDefault();
-    <body oncontextmenu="return false;">
     if ($gameResult.classList.contains('show')) {
       return;
     }
@@ -210,6 +209,7 @@
       }
       hasFlag = !hasFlag;
     }
+    body oncontextmenu="return false;"
     gameWin(INIT.squareLen);
   }
 
