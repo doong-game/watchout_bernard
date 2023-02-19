@@ -184,6 +184,7 @@
 
   function rightClickEvent (e, tdIndex) {
     e.preventDefault();
+    <body oncontextmenu="return false;">
     if ($gameResult.classList.contains('show')) {
       return;
     }
