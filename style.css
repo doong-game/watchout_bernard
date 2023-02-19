@@ -98,10 +98,10 @@ html, body {
   border-right-color: #f6f6f6;
 }
 .btn-reset.game-over {
-  background: url('img/emoji_die.png') no-repeat center / 90%;
+  background: url('img/gameover.gif') no-repeat center / 90%;
 }
 .btn-reset.game-win {
-  background: url('img/emoji_sunglass.png') no-repeat center / 90%;
+  background: url('img/success.gif') no-repeat center / 90%;
 }
 
 .game-box {
